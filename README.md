@@ -13,7 +13,7 @@ default_envs = mks_robin_nano35
 ## Setup you machine
 After flash your board, goto Settings>Advance Configurations>Reset EEPROM if require.
 
-1. Goto Settings>Auto Calibration, calibrate your delta
+1. Plug-in your leveling sensor, goto Settings>Auto Calibration, calibrate your delta
 2. Goto Settings>Advance Configurations>Delta Configurations, check Delta Radius, the value should be 140.8, if the calibration changed the value, change back to 140.8.
 3. Goto Settings>Level Bed
 4. After level, remove leveling sensor, goto Home>Move, then move your Z to 0, then Disable Software Endstop, move carefully until it reach the correct z-offset, value should be around -16.8
