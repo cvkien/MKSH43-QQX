@@ -18,6 +18,6 @@ After flash your board, goto Settings>Advance Configurations>Reset EEPROM if req
 3. Goto Settings>Level Bed
 4. After level, remove leveling sensor, goto Home>Move, then move your Z to 0, then Disable Software Endstop, move carefully until it reach the correct z-offset, value should be around -16.8
 5. Then remember the Z-position value, goto Settings>Probe Offset, change the Z-offset.
-6. Then test first print, when lay first layer, goto Tune>Babysteps, then move the Z until the first layer is perfect, confirm babystep, z-offset will store automatically.
+6. Then test first print, when lay first layer, goto Tune>Babysteps, then move the Z until the first layer is perfect, confirm babystep, z-offset will be stored automatically.
 7. calibrate your flow and estep, try search google or youtube.
 8. Done and enjoy your printer!
