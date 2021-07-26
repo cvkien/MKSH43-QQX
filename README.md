@@ -11,6 +11,8 @@ default_envs = mks_robin_nano35
 - Open the "Configuration_adv.h" file, find "LCD_SERIAL_PORT", and configure the serial port number used to connect to H43. Please make sure that "LCD_SERIAL_PORT" should be different with the "SERIAL_PORT" in "Configuration.h", as "SERIAL_PORT" is used to communicate with the PC. And the baudrate should be set to 115200 by default.
 
 ## Setup you machine
+After flash your board, goto Settings>Advance Configurations>Reset EEPROM if require.
+
 1. Goto Settings>Auto Calibration, calibrate your delta
 2. Goto Settings>Advance Configurations>Delta Configurations, check Delta Radius, the value should be 140.8, if the calibration changed the value, change back to 140.8.
 3. Goto Settings>Level Bed
