@@ -10,7 +10,7 @@ default_envs = mks_robin_nano35
 - Open the "Configuration.h" file, find "DGUS_LCD_UI_MKS" and enable it,
 - Open the "Configuration_adv.h" file, find "LCD_SERIAL_PORT", and configure the serial port number used to connect to H43. Please make sure that "LCD_SERIAL_PORT" should be different with the "SERIAL_PORT" in "Configuration.h", as "SERIAL_PORT" is used to communicate with the PC. And the baudrate should be set to 115200 by default.
 
-3. Follow this to change the port number according to your board.
+3. Follow this https://github.com/makerbase-mks/MKS-H43/wiki to change the port number according to your board.
 
 ## Setup you machine
 After flash your board, goto Settings>Advance Configurations>Reset EEPROM if require.
